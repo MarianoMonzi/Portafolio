@@ -1,0 +1,190 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariano Ariel Monzon</title>
+    <link rel="shortcut icon" href="../static/assets/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/normalize.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+
+        <div class="hero__container container">
+
+            <div class="hero__texts">
+                <h1 class="hero__title">Mariano Monzon</h1>
+                <p class="hero__copy">Undergraduate student in systems && Backend developer with </p>
+                <a href="{% url 'index' %}" class="hero__cta">Version en español</a>
+            </div>
+
+            <img src="../static/assets/python.png" class="hero__img">
+
+        </div>
+
+
+    </header>
+
+    <main class="main">
+
+        <section class="instructor container">
+
+            <div class="instructor__container">
+                <img src="../static/assets/FotoPerfil.jfif" class="instructor__img">
+                <h2 class="instructor__name">Mariano Ariel Monzon</h2>
+                
+                <p class="instructor__paragraph" style="text-align: justify;">Hello 🖐, I am a developer and student. I have knowledge in HTML5, CSS3, JavaScript, Python and MYSQL. I use Django, and I'm creating my first projects with this framework. My goal is to get a job as a developer, where I can put into practice all my knowledge and grow both personally and collectively with the team. collectively with the team
+                <p>
+
+            </div>
+        </section>
+
+        <section class="about container">
+            <div class="about__course">
+                <h2 class="title title--border">My first Project with Django y SQLite 3</h2>
+                <div>
+                    <p class="about__paragraph" style="text-align: justify;">Django_basic is my first project. Is an App in which you can add and search for Products, Employees or Clients.
+                    </p>
+
+                    <p class="about__paragraph" style="text-align: justify;">The main idea for the app is put on practice the basic concepts of Django and Sqlite 3. This project is'nt a CRUD Application, only can insert data in the Data Base
+                    </p>
+                </div>
+                <a href="https://github.com/MarianoMonzi/django_basic" class="cta" target="_blank">See the Project Code</a>
+            </div>
+
+            <figure class="about__picture">
+                <img src="../static/assets/django_basic.PNG" class="about__img">
+            </figure>
+
+        </section>
+
+        <section class="about container">
+            <div class="about__course">
+                <h2 class="title title--border">My fisrt CRUD with Django and Postgre SQL</h2>
+                <div>
+                    <p class="about__paragraph" style="text-align: justify;">Django_CRUD is my first CRUD Application, that can Create-Read-Update-Delete tasks and put as done
+                    </p>
+
+                    <p class="about__paragraph" style="text-align: justify;">
+                        The project have login and logup, that is required for use the App. I use Django for the Backend and Postgre SQL for the data base. The app is host in render.com, because is a free hosting
+                    </p>
+                </div>
+                
+                <a href="https://github.com/MarianoMonzi/django-auth-curd" class="cta" target="_blank">See the Project Code</a>
+                <a href="https://django-auth-curd.onrender.com/" class="cta" target="_blank">See the Project</a>
+            </div>
+
+            <figure class="about__picture">
+                <img src="../static/assets/django_crud.PNG" class="about__img">
+            </figure>
+
+        </section>
+
+        <section class="card">
+            <div class="container">
+
+                <h2 class="title">My most solid  knowledge</h2>
+                <p class="card__copy">This are the lenguage and frameworks that i use</p>
+
+                <div class="card__container">
+
+                    <div class="card__item">
+                        <figure class="card__img">
+                            <img src="../static/assets/bxl-html5.svg" class="card__picture">
+                        </figure>
+                        <h3 class="card__title">HTML5 & CSS3</h3>
+                        <p class="card__paragraph" style="text-align: justify;">These are the languages I use for the layout and design of a website. My knowledge of these languages is basic and every day I learn how to create better user interfaces.
+                        <p>
+                    </div>
+
+                    <div class="card__item">
+                        <figure class="card__img">
+                            <img src="../static/assets/python-5.svg" class="card__picture">
+                        </figure>
+                        <h3 class="card__title">PYTHON</h3>
+                        <p class="card__paragraph" style="text-align: justify;">This language is the one I spend the most time with, it is indispensable to understand and use frameworks, like Django for example. So it is one of my strongest languages.
+                        <p>
+                    </div>
+
+                    <div class="card__item">
+                        <figure class="card__img">
+                            <img src="../static/assets/django.svg" class="card__picture">
+                        </figure>
+                        <h3 class="card__title">DJANGO</h3>
+                        <p class="card__paragraph" style="text-align: justify;">The default library to put into practice the knowledge of Python and accelerate productivity. My knowledge is solid in this framework but every day I learn something new and I put it into practice creating a project or improving an existing one.
+                        <p>
+                    </div>
+
+                    <div class="card__item">
+                        <figure class="card__img">
+                            <img src="../static/assets/postgresql.svg" class="card__picture">
+                        </figure>
+                        <h3 class="card__title">POSTGRE SQL</h3>
+                        <p class="card__paragraph" style="text-align: justify;">This is the database I use to work with Django. Although I use Sqlite 3 when developing, if I decide to launch the App to production, Postgre SQL is the one I choose.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="course container">
+
+            <figure class="course__picture">
+                <img src="../static/assets/web1.jpg" class="course__img">
+            </figure>
+
+            <div class="course__about">
+                <h2 class="title">All my Projects</h2>
+                <p class="about__paragraph">All the Projects that i made, both simple and complex, I upload them to my GitHub repository to have a backup.
+                <p>
+                    <a href="https://github.com/MarianoMonzi" class="cta" target="_blank">See the Projects</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+
+            <div class="footer__contact">
+                <div class="footer__texts">
+                    <h2 class="title">Are you interested in my profile?</h2>
+                    <p class="footer__copy">If you are interested, here you have my social networks in case you want to contact me.
+                    </p>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/mariano.monzon.372" class="footer__link">
+                            <img src="../static/assets/bxl-facebook.svg" class="footer__icon" alt="logo facebook">
+                        </a>
+                        <a href="https://www.linkedin.com/in/mariano-ariel-monzon-855a221b5/" class="footer__link">
+                            <img src="../static/assets/bxl-linkedin-square.svg" class="footer__icon" alt="logo linkedin">
+                        </a>
+                        <a href="https://www.instagram.com/mariano.monzon/?hl=es-la" class="footer__link">
+                            <img src="../static/assets/bxl-instagram.svg" class="footer__icon" alt="logo instagram">
+                        </a>
+                        <a href="https://github.com/MarianoMonzi" class="footer__link">
+                            <img src="../static/assets/bxl-github.svg" class="footer__icon" alt="logo github">
+                        </a>
+
+                    </div>
+                </div>
+
+                <figure class="footer__picture">
+                    <img src="../static/assets/message-ilustration.svg" class="footer__img">
+                </figure>
+            </div>
+
+            <p class="footer__copyright">
+                Web site created by &copy; Mariano Monzon:
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
